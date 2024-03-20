@@ -1,0 +1,188 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*il faut toujours les mettre à 0 et un box=sizing à border box*/
+
+
+body{
+    overflow-x: hidden;
+}
+
+/*header*/
+header{
+    position:fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+/*h1*/
+ header   h1{
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration:solid;
+    background-color: rgb(87, 157, 238);
+    padding: 13px;
+    margin-bottom: 25px;
+    
+}
+
+/*First text*/
+.Textone{
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Images/topo\ img1.jpg);
+}
+#text{
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    text-align: justify;
+    padding:60px 75px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.482);
+    width: 40% /*colocar em porcentagem*/;
+    border:none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/*div  class="header"*/
+.header{
+    position:absolute;
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+#texttwo{
+    position: absolute;
+    left: 410px;
+    padding:30px;
+    background-color: rgb(87, 157, 238);
+    width: 60%;
+    margin: 20 40px;
+}
+
+#lignone{
+    display: block;
+    padding: 4px;
+    top: 700px;
+    height: 100px;
+    background-color: rgb(213, 22, 22);
+    width: 100%;
+}
+
+
+
+.Bline{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Bline span{
+    flex: 40%;
+}
+
+.Bline p{
+    background-color: rgb(6, 63, 19);
+    color: white;
+    padding: 10px 90px;
+    
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.lines{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lines .vertical{
+    width: 2px;
+    height: 400px;
+    background-color: rgb(58, 57, 57);
+}
+
+.lines .circle{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 50%;
+    position: relative;
+}
+
+.lines .dad{
+    position: relative;
+}
+
+.lines .dad .son{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 500px;
+    background-color: rgb(47, 48, 48);
+}
+
+.circle .Cdaughter{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    height: 2px;
+    width: 400px;
+    background-color: rgb(51, 13, 13);
+}
+
+.circle .Cson{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    height: 2px;
+    width: 400px;
+    background-color: rgb(51, 13, 13);
+}
+/*etapes des cadres de textes*/
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: 2PX solid rgb(70, 43, 2);
+    position: relative;
+    bottom: 1000px;
+    left: 1237px;
+}
+.fausse_div{
+    padding: 2px;
+    color: black;
+    height: 2px;
+    width: 50px;
+}
+.square2{
+    width: 200px;
+    height: 200px;
+    border: 2PX solid rgb(5, 65, 233);
+    position: relative;
+    bottom: 770px;
+    left: 118px;
+}
+.square3{
+    width: 200px;
+    height: 200px;
+    border: 2PX solid rgb(2, 241, 50);
+    position: relative;
+    bottom: 500px;
+    left: 1157px;
+}
